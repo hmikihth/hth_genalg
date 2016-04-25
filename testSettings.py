@@ -4,6 +4,8 @@ import unittest
 
 import Settings
 
+# TODO: This test is not complete yet.
+
 class SettingTestCase(unittest.TestCase):
     @classmethod
     def setUpClass(self):
