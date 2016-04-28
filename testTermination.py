@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-import bPdev
 import unittest
 import Population, Termination, Creature
+from inspect import isfunction
 
 def func(population):
     for e in population.creatures:
@@ -29,7 +29,7 @@ class TerminationTestCase(unittest.TestCase):
     def test_02_SetTerminationFunction(self):
         self.termination.setTerminationFunction(func)
         self.termination.setTerminationFunction("x")
-        self.assertTrue(bPdev.isFunction(self.termination.func))
+        self.assertTrue(isfunction(self.termination.func))
     
     def test_03_Check(self):
         creature = Creature.Creature()

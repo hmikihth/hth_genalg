@@ -3,7 +3,7 @@
 import unittest
 import Evaluation
 import Creature
-from bPdev import isFunction
+from inspect import isfunction
 
 def func(creature):
     return creature.chromosomes.count('a')
@@ -28,7 +28,7 @@ class EvaluationTestCase(unittest.TestCase):
         self.evaluation.setCriteriumFunction(func)
         self.assertIs(self.evaluation.criterium_function, func)    
         self.evaluation.setCriteriumFunction(1)
-        self.assertTrue(isFunction(self.evaluation.criterium_function))
+        self.assertTrue(isfunction(self.evaluation.criterium_function))
     
     def testSetCreature(self):
         creature = Creature.Creature()

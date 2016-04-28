@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import bPdev
+from inspect import isfunction
 import Population
 
 class Termination():
@@ -12,7 +12,7 @@ class Termination():
             self.population = population
   
     def setTerminationFunction(self, func):
-        if bPdev.isFunction(func):
+        if isfunction(func):
             self.func = func
   
     def check(self):

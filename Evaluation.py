@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import Creature
-import bPdev
+from inspect import isfunction
 
 class Evaluation():
     def __init__(self):
@@ -15,7 +15,7 @@ class Evaluation():
             self.creature = creature
   
     def setCriteriumFunction(self, criterium_function):
-        if bPdev.isFunction(criterium_function):
+        if isfunction(criterium_function):
             self.criterium_function = criterium_function
     
     def setFitness(self, fitness):
