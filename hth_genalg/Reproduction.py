@@ -2,9 +2,9 @@
 
 import random
 
-import Population
-import Crossover
-import Creature
+from hth_genalg import Population
+from hth_genalg import Crossover
+from hth_genalg import Creature
 
 class Reproduction():
     def __init__(self):

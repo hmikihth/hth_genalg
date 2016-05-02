@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import unittest
-import Population, Creature
+from hth_genalg import Population, Creature
 
 class PopulationTestCase(unittest.TestCase):
     @classmethod

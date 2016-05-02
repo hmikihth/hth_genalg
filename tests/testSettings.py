@@ -2,7 +2,7 @@
 
 import unittest
 
-import Settings
+from hth_genalg import Settings
 
 # TODO: This test is not complete yet.
 

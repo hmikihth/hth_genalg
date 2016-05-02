@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import Population
+from hth_genalg import Population
 
 """
    Strategies:

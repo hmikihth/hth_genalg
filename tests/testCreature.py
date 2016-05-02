@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import unittest
-import Creature
+from hth_genalg import Creature
 
 class CreatureTestCase(unittest.TestCase):
     @classmethod

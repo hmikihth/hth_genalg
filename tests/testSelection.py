@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
 import unittest
-import Selection
-import Population
-import Creature
+from hth_genalg import Selection
+from hth_genalg import Population
+from hth_genalg import Creature
+
 
 class SelectionTestCase(unittest.TestCase):
     @classmethod

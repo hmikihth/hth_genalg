@@ -2,10 +2,10 @@
 
 import unittest
 
-import Initialization
+from hth_genalg import Initialization
 
-import Population
-import Creature
+from hth_genalg import Population
+from hth_genalg import Creature
 
 def cr_func(x):
     return 1

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import unittest
-import Population, Termination, Creature
+from hth_genalg import Population, Termination, Creature
 from inspect import isfunction
 
 def func(population):

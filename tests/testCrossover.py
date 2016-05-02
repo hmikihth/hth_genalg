@@ -1,8 +1,8 @@
 #!/usr/bn/env python3
 
 import unittest
-import Crossover
-import Creature
+from hth_genalg import Crossover
+from hth_genalg import Creature
                                           
 class CrossoverTestCase(unittest.TestCase):
     @classmethod

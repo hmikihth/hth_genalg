@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 import unittest
-import Evaluation
-import Creature
+from hth_genalg import Evaluation
+from hth_genalg import Creature
 from inspect import isfunction
 
 def func(creature):

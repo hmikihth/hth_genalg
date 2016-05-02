@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import Creature
+from hth_genalg import Creature
 
 class Population():
     def __init__(self):

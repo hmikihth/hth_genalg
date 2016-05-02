@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 
 import random
-import Creature
-import Population
+from hth_genalg import Creature
+from hth_genalg import Population
 
-import Evaluation
-import Termination
-import Selection
-import Reproduction
-import Crossover
-import Mutation
+from hth_genalg import Evaluation
+from hth_genalg import Termination
+from hth_genalg import Selection
+from hth_genalg import Reproduction
+from hth_genalg import Crossover
+from hth_genalg import Mutation
 
 class Initialization():
     def __init__(self, settings):

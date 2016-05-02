@@ -2,8 +2,8 @@
 
 import random
 
-import Mutation
-import Creature
+from hth_genalg import Mutation
+from hth_genalg import Creature
 
 class Crossover():
     def __init__(self, equal_crossover=True, mutant_chromosomes=1, inbreeding=True):

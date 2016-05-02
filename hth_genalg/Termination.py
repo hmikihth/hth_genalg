@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from inspect import isfunction
-import Population
+from hth_genalg import Population
 
 class Termination():
     def __init__(self): 

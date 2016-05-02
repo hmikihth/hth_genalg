@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import unittest
-import Crossover, Population, Reproduction, Creature
+from hth_genalg import Crossover, Population, Reproduction, Creature
 
 class ReproductionTestCase(unittest.TestCase):
     @classmethod
