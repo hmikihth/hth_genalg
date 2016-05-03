@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import Initialization
+from hth_genalg import Initialization
 
 class GALoop():
     def __init__(self, settings):
