@@ -1,2 +1,2 @@
 # hth-genalg
-A genethic algorithm library
+A genetic algorithm library
